@@ -58,7 +58,7 @@ function zero() {
     arr.push('0');
     display(arr);
 }
- 
+
 function addition() {
     arr.push('+');
     display(arr);
@@ -86,7 +86,7 @@ function clearAll() {
 
 function result_value() {
     let expression = document.getElementById('lcd-screen').value;
-    document.getElementById('lcd-screen').value = nerdamer(expression).evaluate();
+    document.getElementById('lcd-screen').value = eval(expression)
     array = [""];
 }
 
