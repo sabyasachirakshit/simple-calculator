@@ -1,5 +1,3 @@
-
-console.log("Calculator.js linked!");
 var arr = [""]
 function display(arr) {
     let exp = ""
